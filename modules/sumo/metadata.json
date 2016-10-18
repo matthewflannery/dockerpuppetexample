@@ -1,0 +1,21 @@
+{
+  "name": "sumoa",
+  "version": "0.1.5",
+  "author": "SumoLogic",
+  "summary": "Provides SumoLogic collector installation and configuration",
+  "license": "Apache-2.0",
+  "source": "https://github.com/SumoLogic/sumo-collector-puppet-module",
+  "project_page": "https://github.com/SumoLogic/sumo-collector-puppet-module",
+  "issues_url": "https://github.com/SumoLogic/sumo-collector-puppet-module/issues",
+  "dependencies": [],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.0.0 <4.1.0"
+    }
+  ]
+}

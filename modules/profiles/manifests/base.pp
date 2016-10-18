@@ -9,4 +9,6 @@ class profiles::base {
     ensure => "/usr/share/zoneinfo/Australia/Sydney"
   }
 
+  include sys::curl
+
 }
