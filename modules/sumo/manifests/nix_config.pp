@@ -61,7 +61,7 @@ class sumo::nix_config (
   }
 
   exec { 'Execute sumo':
-    command => "/bin/sh /usr/local/sumo/${sumo_exec} -q",
+    command => "/bin/sh /usr/local/sumo/${sumo_exec} -q -Vsumo.accessid $sumo::accessid -vSumo.accesskey $sumo::accesskey",
     cwd     => '/usr/local/sumo',
     creates => '/opt/SumoCollector',
     require => Exec['Download Sumo Executable'],

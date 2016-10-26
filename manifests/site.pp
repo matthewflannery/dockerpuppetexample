@@ -1,3 +1,6 @@
-node default {
+node hello {
 	include roles::nginx
+}
+
+node default {
 }
